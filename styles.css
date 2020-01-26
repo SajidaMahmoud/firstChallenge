@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans&display=swap);
+body {
+  margin: 0px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  padding: 5%;
+}
+
+.bigcolumn {
+  flex: 50%;
+  position: relative;
+}
+
+.smallcolumn {
+  flex: 25%;
+  position: relative;
+}
+
+.bigcolumn img {
+  vertical-align: middle;
+  padding-top: 2%;
+}
+
+.smallcolumn img {
+  vertical-align: middle;
+  padding-top: 4%;
+  padding-left: 4%;
+}
+
+.title1 {
+  color: #6e6e6e;
+  font-size: 3vw;
+  text-align: center;
+  font-family: Playfair Display, serif;
+  padding-top: 3%;
+}
+
+.title2 {
+  color: #f2f2f2;
+  font-size: 3vw;
+  text-align: center;
+  font-family: Playfair Display, serif;
+  padding-top: 3%;
+}
+
+.text {
+  color: #999999;
+  font-size: 1vw;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 3%;
+}
+
+.textInput {
+  color: #999999;
+  font-size: 1vw;
+  text-transform: uppercase;
+  margin: 2% auto;
+  display: block;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px;
+  border-bottom: 1px solid #999999;
+  width: 15%;
+}
+
+.submitButton {
+  width: 9%;
+  font-size: 1vw;
+  margin: 2% auto;
+  padding: 1% 2%;
+  display: block;
+  color: #f2f2f2;
+  background-color: rgba(110, 110, 110, 0.5);
+  text-transform: uppercase;
+  border: 0px;
+  border-radius: 50px;
+}
+.submitButton:hover {
+  background-color: rgba(90, 90, 90, 0.5);
+}
+
+.img-bg {
+  background: url("final-bg1.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.imgtext1 {
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  color: #999999;
+  text-transform: uppercase;
+  font-size: 2vw;
+}
+
+.imgtext2 {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  color: white;
+  font-size: 60px;
+  font-size: 3vw;
+}
+
+.imgtext3 {
+  position: absolute;
+  bottom: 12%;
+  left: 10%;
+  color: #999999;
+  text-transform: uppercase;
+  font-size: 1.5vw;
+}
+
+.imgtext4 {
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+  color: white;
+  font-size: 40px;
+  font-size: 2vw;
+}
+
+.imgtext5 {
+  position: absolute;
+  bottom: 62%;
+  left: 10%;
+  color: #999999;
+  text-transform: uppercase;
+  font-size: 1.5vw;
+}
+
+.imgtext6 {
+  position: absolute;
+  bottom: 55%;
+  left: 10%;
+  color: white;
+  font-size: 2vw;
+}
+
+.bottom1 {
+  color: #999999;
+  display: inline-block;
+  font-size: 1vw;
+  text-align: left;
+  margin-bottom: 3%;
+  margin-left: 4%;
+}
+
+.bottom2 {
+  color: #999999;
+  font-size: 1vw;
+  display: inline-block;
+  float: right;
+  margin-bottom: 3%;
+  margin-right: 4%;
+}
